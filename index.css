@@ -1,0 +1,21 @@
+
+img {
+  width: fit-content;
+}
+p.title {
+  font: 2em sans-serif;
+}
+p.body {
+  font: 1.2em sans-serif;
+  margin: auto;
+}
+
+div.block1 {
+  background-color: rgb(255, 193, 204);
+  display: inline-block;
+}
+div.block2 {
+  margin: auto;
+  background-color: rgb(143, 255, 133);
+  display: inline-block;
+}
