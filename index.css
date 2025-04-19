@@ -1,18 +1,39 @@
 
-
-p.title {
-  font: 2em calibri;
-}
-p.body {
-  font: 1.4em calibri;
-  color: rgb(176, 0, 0);
-  margin: auto;
+body{
+  background-color: rgb(31, 31, 31);
+  font-family: Calibri;
+  color: white;
+  
 }
 
-div.title_block {
-  background-color: rgb(59, 95, 123);
-  display: block;
+
+.title {
+  font-size: 36px;
+  font-family: Calibri;
+  color: white;
+}
+
+.body_text{
+  font-size:22px;
+  font-family: Calibri;
+  color: white
+}
+
+h1{
+
+}
+p{
+
+}
+
+header{
+  background-color: rgb(40, 67, 83);
   padding: 20px;
+  border: red;
+  border-radius: 10px;
+}
 
+img{
+  border-radius: 10px;
 }
 
