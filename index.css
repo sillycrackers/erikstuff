@@ -1,19 +1,17 @@
 
-img {
-  width: fit-content;
-}
+
 p.title {
-  font: 2em sans-serif;
+  font: 2em calibri;
 }
 p.body {
-  font: 1.2em sans-serif;
+  font: 1.4em calibri;
   margin: auto;
 }
 
-div.block1 {
-  background-color: rgb(255, 193, 204);
-  display: inline-block;
-  padding: 50px 50px 50px 50px;
+div.title_block {
+  background-color: rgb(59, 95, 123);
+  display: block;
+  padding: 20px;
 
 }
 
