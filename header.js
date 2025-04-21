@@ -7,7 +7,7 @@ fetch('./header.html').then(function (response){
 	}
 	throw response;
 }).then(function (text) {
-    let body = document.querySelector('body');
+    let body = document.querySelector('.wrapper_main');
     body.innerHTML = text;
 	
 });
