@@ -1,7 +1,5 @@
-// This is my first javascript code
-console.log('Hello World');
 
-fetch('../header.html').then(function (response){
+fetch('../pages/templates/header.html').then(function (response){
     if (response.ok) {
 		return response.text();
 	}
