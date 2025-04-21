@@ -1,8 +1,7 @@
 :root{
-  --background_color: #1f1f1f;
+  --background_color: #121212;
   --global_font:  Verdana, sans-serif;
 }
-
 
 
 body{
@@ -10,22 +9,48 @@ body{
   background-color: var(--background_color);
   font-family: var(--global_font);
   color: white;
-  border: 1px solid white;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body_header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title_container{
   display: flex;
   flex-direction: column;
   align-items: center;
   
 }
+.title_text{
+  font-size: 36px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 20px 0px;
+}
 
-.menu_div{
+a{
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+}
+
+menu{
+  padding: 0px;
+  margin: 0px;
+}
+.main_menu{
   display: flex;
   min-height: 60px;
   max-width: 600px;
-  border: 1px solid white;
   justify-content: center;
   align-items: center;
-  border-radius: 6px;
+  
 }
 
 .menu_item{
@@ -40,21 +65,9 @@ body{
 .title {
   font-size: 36px;
 }
-.title_div{
-
-}
 
 .body_text{
   font-size:22px;
-}
-
-header{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  border: red;
-  border-radius: 10px;
 }
 
 img{
