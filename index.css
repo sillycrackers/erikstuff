@@ -1,11 +1,12 @@
 
 :root{
-  --background_color: #121212;
+  
+  --background_color: black;
   --global_font:  Verdana, sans-serif;
 }
 
 body{
-
+  
   background-color: var(--background_color);
   font-family: var(--global_font);
   color: white;
