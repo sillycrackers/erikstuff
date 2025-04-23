@@ -1,17 +1,17 @@
+/* Margin shorthand */
+/* top | right | bottom | left */
 
 :root{
   
   --background_color: black;
-  --global_font:  Verdana, sans-serif;
+  --global_font:  Calibri, sans-serif;
 }
 
 body{
-
   background-color: var(--background_color);
   font-family: var(--global_font);
   color: white;
   text-align: center;
-
 }
 .wrapper_main{
   width: 100%;
@@ -58,9 +58,10 @@ a{
   min-height: 60px;
   justify-content: space-around;
   align-items: center;
-  margin: 0;
+  /* top | right | bottom | left */
+  margin-top: 20px 0 20px 0;
   padding: 0;
-  border: 1px solid green;
+
   }
 
 .menu_item{
