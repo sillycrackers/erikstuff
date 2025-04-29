@@ -48,7 +48,7 @@ body{
   margin: 20px 0px;
 }
 
-a{
+.header_wrapper a{
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
